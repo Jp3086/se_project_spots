@@ -68,6 +68,8 @@
 }
 
 .profile__add-btn {
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-top: auto;
     padding: 0;
@@ -78,6 +80,7 @@
     border-radius: 8px;
     border: 0;
     cursor: pointer;
+    display: flex;
 }
 
 .profile__add-btn::before {
@@ -86,6 +89,7 @@
     height: 12px;
     display: block;
     gap: 8px;
+    display: flex;
 }
 
 @media screen and (max-width: 630px) {
@@ -122,5 +126,12 @@
         margin: 0;
         width: 100%;
         max-width: 288px;
+        display: flex;
+    }
+
+    .profile__edit-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
