@@ -4,7 +4,7 @@ const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
 
 const newPostBtn = document.querySelector(".profile__new-post-btn");
 const newPostModal = document.querySelector("#new-post-modal");
-const newPostCloseBtn = newPostCloseBtn.querySelector(".modal__close-btn");
+const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 
 editProfileBtn.addEventListener("click", function () {
     editProfileModal.classList.add("modal_is-opened");
