@@ -1,5 +1,7 @@
 .modal {
     visibility: hidden;
+    transition: 0.3s ease;
+    opacity: 0.3s ease;
     background-color: #00000080;
     position: fixed;
     top: 0;
@@ -21,6 +23,7 @@
 
 .modal_is-opened {
     visibility: visible;
+    opacity: 1;
 }
 
 .modal__container {
@@ -42,6 +45,11 @@
     background-position: center;
     border: none;
     opacity: 40%;
+    cursor: pointer;
+}
+
+.modal__close-btn:hover {
+    opacity: 1;
 }
 
 .modal__submit-btn {
@@ -52,6 +60,7 @@
     background-color: #212121;
     color: #fcf5e5;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .modal__title {
