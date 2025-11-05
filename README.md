@@ -2,7 +2,7 @@
 
 This is where you will find the link for my project and the video already deployed to Github.
 
--   [My project link] (https://jp3086.github.io/se_project_spots/)
+-   [My project link](https://jp3086.github.io/se_project_spots/)
 -   [link to video](https://drive.google.com/file/d/1VGhlPQ4GS_5ERl7xQrMU3xP9nyd3AI_l/view?usp=sharing)
 
 ### Overview

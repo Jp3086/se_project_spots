@@ -86,11 +86,14 @@
     display: flex;
 }
 
+.profile__add-btn:hover {
+    opacity: 1;
+}
+
 .profile__add-btn::before {
     content: "";
     width: 12px;
     height: 12px;
-    display: block;
     gap: 8px;
     display: flex;
 }

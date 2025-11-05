@@ -9,6 +9,7 @@
     object-fit: cover;
     display: block;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .card__content {
@@ -38,7 +39,7 @@
     right: 10px;
     background-image: url(../images/delete.svg);
     background-color: transparent;
-    border: transparent;
+    border: none;
 }
 
 .card__delete-button:hover {
@@ -50,7 +51,7 @@
     width: 23px;
     height: 20px;
     border: none;
-    opacity: 40%;
+    opacity: 0.4;
     background-color: transparent;
     background-size: contain;
     background-position: center;
