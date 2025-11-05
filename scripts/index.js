@@ -135,6 +135,7 @@ editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 function handleAddCardSubmit(evt) {
     evt.preventDefault();
+    evt.target.reset();
 
     const inputValues = {
         name: captionInputElement.value,
@@ -147,7 +148,6 @@ function handleAddCardSubmit(evt) {
 }
 
 addCardFormElement.addEventListener("submit", handleAddCardSubmit);
-evt.target.reset();
 
 initialCards.forEach(function (item) {
     const cardElement = getCardElement(item);
